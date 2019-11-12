@@ -25,7 +25,7 @@ then
   fi
 
   #7-Set the password
-  echo `$password | passwd $username`
+  echo $password | chpasswd $username
   
   #8-passwd already check creation password.
 
